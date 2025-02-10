@@ -1,0 +1,22 @@
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#root{
+    --gap-sections: 2rm;
+}
+#sections {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media screen and (min-width: 1600px) {
+    
+}
