@@ -1,0 +1,12 @@
+main{
+    display: grid;
+    grid-template-columns: reapet(auto-fill, minmax(200px, 1fr));
+}
+
+figure{
+    border: 1px soild black;
+    border-radius: 2em;
+}
+figure > img{
+    width: 100%;
+}
