@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+document.addEventListener("DOMContentLoaded", async function () {});
+=======
 document.addEventListener("DOMContentLoaded", async function () {
     let data = [];
     const res = await fetch("https://restcountries.com/v3.1/all");
@@ -68,3 +71,4 @@ regions.innerHTML = Object.keys(hierarchy)
   .join();
 
 regions.addEventListener("change",updateSub);
+>>>>>>> b085b90c7b9d74759da40d34b2b7dd09cdc532d5
